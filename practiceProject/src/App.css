@@ -121,12 +121,20 @@ section .container
     flex-wrap: wrap;
 }
  
-section .container .element
-{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background: rgb(255, 255, 255);
-   /* margin: 10px; */
-    scale: 0.75;
-}
+
+    section .container .element {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: rgb(255, 255, 255);
+        scale: 0.75;
+        /*opacity: 0; /* ✅ start hidden */
+        transition: all 0.3s ease;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        
+     
+
+
+      }
+      
+
